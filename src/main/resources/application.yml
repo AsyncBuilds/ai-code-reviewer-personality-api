@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+reviewer:
+  modelVersion: v1.0
+  maxSnippetLength: 6000
+  enableSarcasm: true
+  strictSecurity: true
+  warningThreshold: 2
+  llm:
+    enabled: true
+    baseUrl: https://api.openai.com/v1
+    model: gpt-4.1-mini
+    apiKey: ${OPENAI_API_KEY:}
+    timeoutMs: 20000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
