@@ -30,6 +30,7 @@ jobs:
           confluence_user: ${{ vars.CONFLUENCE_USER }}
           page_ids: |
             360449
+            753668
           llm_provider: openai
           llm_model: gpt-4o
           llm_api_key: ${{ secrets.OPENAI_API_KEY }}
