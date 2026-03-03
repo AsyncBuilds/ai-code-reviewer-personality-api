@@ -5,7 +5,7 @@ Funny AI-themed Spring Boot demo API that reviews code snippets with reviewer pe
 This is a **dummy Spring Boot demo API** created solely for testing purposes.  
 
 Its primary goal is to serve as a sample repository for validating the GitHub Action  
-👉 https://github.com/kavinlabs/confluence-pr-doc-sync  
+👉 https://github.com/AsyncBuilds/confluence-pr-sync-agent  
 
 The API itself is intentionally simple and exists only to trigger and test Confluence PR documentation sync workflows.
 
